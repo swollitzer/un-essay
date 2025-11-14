@@ -1,6 +1,11 @@
 .popoverImg {
-    width:150px;
+    width:350px;
     height:auto;
     display:block;
     
 }
+.popover{
+    max-width: 400px;
+    font-size: large;
+}
+
