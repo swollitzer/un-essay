@@ -4,8 +4,63 @@
     display:block;
     
 }
+.sectionImg{
+    width:250px;
+    height:auto;
+    display:block;
+    margin-bottom:1.5rem;
+
+}
 .popover{
     max-width: 400px;
     font-size: large;
 }
 
+.pastel-header{
+    background: linear-gradient(90deg, #ead8ff 20%, #dffff5 100%);
+}
+.term{
+    background: #fff6ff;
+    border: 2px solid #ffc6ff;
+    border-radius: 50px;
+    padding: 2px 8px;
+    cursor: pointer;
+    transition: 0.25s ease;
+    font-weight: 600;
+}
+
+.term:hover {
+    box-shadow: 0 0 6px #8bb8fc;
+}
+
+.stage-label {
+    font-weight: 600;
+    margin-top: 18px;
+    
+}
+.pastel-card {
+    background: #ffe4f0;
+    border-radius: 20px;
+}
+.sparkles {
+    width: 100%;
+    height: 20px;
+    margin: 20px 0;
+    background-image: radial-gradient(circle, #f1b6d1 40%, transparent 40%), radial-gradient(circle, #ffe4f0 30%, transparent 30%);
+    background-size: 35px 20px;
+    background-position: 0 10px, 10px 0;
+}
+
+.accordion-body ul {
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.accordion-body li {
+    margin-bottom: 12px;
+}
+.schoolbell-regular {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
